@@ -1,0 +1,809 @@
+
+/*general CSS*/
+body{
+	text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+  
+    color: #74bab1;
+}
+
+
+
+.backtop{
+	position: absolute;
+	width: 4.5%;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 2%;
+	margin-right: 2%;
+
+	
+}
+/*end of general CSS*/
+
+
+.section{
+    
+    border: 2.5em solid white;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.one{
+    background-color: #1e1e20;
+    
+}
+
+#home{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.home_heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10%;
+
+
+}
+
+
+#home_title{
+    font-family: 'Playfair Display', serif;
+    color: #74bab1;
+    text-align: center;
+    font-size: 5.5em;
+    letter-spacing: 0.05em;
+    font-weight: 100;
+	-webkit-animation-delay:0.2s;
+	-webkit-animation-duration: 2s;
+    
+}
+
+
+.and{
+    color: white;
+}
+
+
+.villains{
+    color: #e0564f;
+}
+
+
+.line_serperator{
+
+height:1px;
+background:#fff;
+border-bottom:1px solid #313030;
+width: 20%;
+text-align: center;
+margin-top: -2.5%;
+-webkit-animation-delay:0.5s;
+-webkit-animation-duration: 2s;
+
+}
+
+.home_sub{
+    font-family: 'Fauna One', serif;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    font-size: 1.5em;
+	-webkit-animation-delay:0.9s;
+	-webkit-animation-duration: 2s;
+}
+
+
+.click{
+    
+    color: #9b9b9b;
+    font-family: 'Fauna One', serif;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    font-size: 1.5em;
+    margin-top: 3%;
+	-webkit-animation-delay:1.5s;
+	-webkit-animation-duration: s;
+    
+}
+
+
+.characters{
+    
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:nowrap; 
+    width: 100%;
+    padding-top: 2%;
+    margin-bottom: -5%;
+	
+
+    
+}
+
+
+.character_polaroids{
+	width:15vw;
+	-webkit-animation-delay:2.1s;
+	-webkit-animation-duration: 2s;
+
+}
+
+
+
+/*END OF HOME PAGE CSS*/
+
+#second_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    height: 100%;
+    
+    
+}
+
+.scott_quote{
+    width: 54%;
+    
+}
+
+p1{
+    font-family: 'Fauna One', serif;
+    font-weight: 100;
+    color: #5b5b5b;
+    line-height:1.5em;
+    font-size: 1.32em;
+    text-align: justify;
+    
+}
+
+
+p2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #3a3a3a;
+    text-align: justify;
+}
+
+cite{
+    font-size: 1em;
+    font-family: 'Fauna One', serif;
+    font-weight: 100;
+    color: #757575;
+}
+
+/*END OF SECOND PAGE*/
+
+
+
+#third_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a;
+    height: 100%;
+    
+}
+
+.homage{
+    width:54%;
+}
+
+p3{
+      font-family: 'Fauna One', serif;
+    font-weight: 100;
+    color: #fff;
+    line-height:1.5em;
+    font-size: 1.31em;
+    text-align: justify;
+}
+
+.h_link{
+    color: #e0564f;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/*END OF THIRD PAGE*/
+
+#fourth_page{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #74bab1;
+    height: 100%;
+	width: 100%;
+	
+}
+
+.left_text_sherlock{
+	width:34%;
+	text-align:justify; 
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -4%;
+	
+}
+
+h4{
+	color: #364141;
+	font-family: 'Playfair Display', serif;
+    font-size: 2.9em;
+    font-weight: 700;
+	
+	
+}
+
+p4{
+	font-family: 'Fauna One', serif;
+    font-weight: 100;
+    color: #fff;
+    line-height:1.5em;
+    font-size: 1em;
+	
+
+  
+}
+
+.sherlock_p4{
+	font-family: 'Fauna One', serif;
+    font-weight: 100;
+    color: #fff;
+    line-height:1.5em;
+    font-size: 1em;
+}
+
+/*BELOW IS THE CSS FOR THE POLAROID LAYOUT ON SHERLOCKS CHARACTER PROFILE*/
+
+
+.polaroids{
+	width: 34%;
+}
+.sherlock_polaroids{
+	
+	width: 100%;
+	
+}
+
+
+/*END OF SHERLOCK POLAROIDS CSS*/ 
+
+#fith_page{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d8cb9f;
+    height: 100%;
+	width: 100%;
+	
+}
+
+
+.left_text_watson{
+	width:34%;
+	text-align:justify; 
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -4%;
+	
+}
+
+/*END OF WATSON POLAROIDS CSS*/
+
+#sixth_page{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a8a8a8;
+    height: 100%;
+	width: 100%;
+	
+}
+
+
+.left_text_moriarty{
+	width:34%;
+	text-align:justify; 
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -4%;
+	
+}
+
+/*END OF MORIARTY POLAROIDS CSS*/
+
+#seventh_page{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1c;
+    height: 100%;
+	width: 100%;
+	
+}
+
+
+.left_text_irene{
+	width:34%;
+	text-align:justify; 
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -4%;
+	
+}
+
+
+
+.irene{
+	color: #e0564f;
+}
+
+.prof_link{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	
+}
+/*END OF MORIARTY POLAROIDS CSS*/
+
+
+
+#eighth_page{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    height: 100%;
+    
+}
+
+.copyright{
+    width: 54%;
+    
+}
+
+
+
+
+/*media queries*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+	.section{
+		
+border: 0.5em solid white;
+	}
+
+
+
+.left_text_sherlock{
+	width:42%;
+	margin-left: 3.5%;
+	
+	
+}
+
+h4{
+	margin-bottom: 3%;
+	margin-top: 2%;
+	
+	
+}
+
+
+.sherlock_p4{
+
+    font-size: 1em;
+	margin-bottom: -4%;
+}
+	
+#fourth_page{
+	
+    flex-direction: row;
+  
+}
+	
+.polaroids{
+	width: 42%;
+}
+
+	
+#fith_page{
+	
+    flex-direction: row;
+  
+}
+	
+.left_text_watson{
+	width:42%;
+	margin-left: 3.5%;
+}
+	
+	
+#sixth_page{
+	
+    flex-direction: row;
+  
+}
+	
+.left_text_moriarty{
+	width:42%;
+	margin-left: 3.5%;
+}
+
+	
+#seventh_page{
+	
+    flex-direction: row;
+  
+}
+	
+.left_text_irene{
+	width:42%;
+	margin-left: 3.5%;
+	
+}
+
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {  
+	
+	
+.section{
+		
+	border: 0.5em solid white;
+	}
+
+
+
+.scott_quote{
+    width: 54%;
+    
+}
+
+p1{
+    
+    font-size: 1.2em;
+}
+
+p2{
+    font-size: 2em;
+
+}
+
+cite{
+    font-size: 1em;
+}
+	
+.left_text_sherlock{
+	width:85%;
+	
+	
+}
+
+h4{
+	margin-bottom: 5%;
+	
+	
+}
+
+p4{
+
+    font-size: 1em;
+
+
+  
+}
+
+.sherlock_p4{
+
+    font-size: 1em;
+}
+	
+#fourth_page{
+	
+    flex-direction: column;
+  
+}
+	
+.polaroids{
+	width: 45%;
+}
+.sherlock_polaroids{
+	
+	width: 100%;
+	
+}
+	
+#fith_page{
+	
+    flex-direction: column;
+  
+}
+	
+.left_text_watson{
+	width:85%;
+	
+}
+	
+	
+#sixth_page{
+	
+    flex-direction: column;
+  
+}
+	
+.left_text_moriarty{
+	width:85%;
+	
+}
+
+	
+#seventh_page{
+	
+    flex-direction: column;
+  
+}
+	
+.left_text_irene{
+	width:85%;
+	
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+	
+
+.section{
+		
+	border: 0.9em solid white;
+   
+	}
+	
+	
+.scott_quote{
+    width: 80%;
+
+    
+}	
+	p1{
+
+    font-size: 0.6em;
+		font-weight: 700;
+		
+}
+
+
+p2{
+    font-size: 1em;
+
+}
+
+cite{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+	
+.home_heading{
+    width: 80%;
+    margin-top: -10%;
+
+}
+	
+#home_title{
+   
+    text-align: center;
+    font-size: 1.9em;
+	-webkit-animation-delay:0.2s;
+	-webkit-animation-duration: 2s;
+    
+}
+	
+
+.home_sub{
+    font-size: 1em;
+}
+	
+.click{
+    
+ 	text-align: center;
+    font-size: 0.9em;
+  
+    
+}
+	
+	
+.characters{
+   
+    flex-wrap:wrap; 
+    width: 80%;
+    padding-top: 9%;
+    margin-bottom: 0%;
+	
+
+    
+}
+	
+.character_polaroids{
+	width:35vw;
+	-webkit-animation-delay:2.1s;
+	-webkit-animation-duration: 2s;
+	padding: 3px;
+
+}	
+	
+
+
+
+
+.homage{
+    width:78%;
+}
+
+p3{
+    font-size: 0.8em;
+}
+
+
+	
+#fourth_page{
+	
+    flex-direction:column;
+    justify-content: center;
+   
+	
+}
+
+.left_text_sherlock{
+	width:83%;
+	margin-top: 0%;
+	
+}
+
+h4{
+    font-size: 1.4em;
+  
+	
+	
+}
+
+	
+.sherlock_p4{
+	
+    line-height:1.4em;
+    font-size: 0.6em;
+	margin-top: -7%
+	
+}
+	
+	
+p4{
+    font-weight: 100;
+    font-size: 0.65em;
+	
+}
+	
+#fith_page{
+	
+    flex-direction:column;
+    justify-content: center;
+
+}
+
+.left_text_watson{
+	width:83%;
+	margin-top: 0%;
+	margin-bottom: -1%;
+	
+}
+
+
+	
+.watson_title{
+margin-bottom: 1%;
+	}
+	
+	
+	
+#sixth_page{
+	
+    flex-direction:column;
+    justify-content: center;
+
+}
+
+.left_text_moriarty{
+	width:83%;
+	margin-top: 0%;
+	margin-bottom: 4%;
+	
+}
+	
+	
+#seventh_page{
+	
+    flex-direction:column;
+    justify-content: center;
+
+}
+
+.left_text_irene{
+	width:83%;
+	margin-top: 0%;
+	margin-bottom: 4%;
+	
+}
+  
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
